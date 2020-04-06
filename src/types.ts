@@ -11,4 +11,5 @@ export type Collapsible = {
 
 export type CollapsibleStackConfig = {
   collapsedColor?: string;
+  elevation?: number;
 };
