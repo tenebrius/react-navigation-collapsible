@@ -71,13 +71,14 @@ function App() {
             name="WithDefaultHeader"
             component={DefaultHeaderScreen}
             options={{
-              headerStyle: {backgroundColor: 'green'},
-              headerTintColor: 'white',
+              headerStyle: {backgroundColor: 'white'},
+              headerTintColor: 'black',
               title: 'Regular Header',
             }}
           />,
           {
-            collapsedColor: 'red',
+            collapsedColor: 'white',
+            elevation:3,
           },
         )}
         {createCollapsibleStackSub(
